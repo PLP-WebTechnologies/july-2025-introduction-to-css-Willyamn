@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Demo Page</title>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <h1>Welcome to My Styled Page</h1>
+    <p>Experimenting with the CSS Box Model, Spacing, and Layout</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#section1">Home</a></li>
+      <li><a href="#section2">About</a></li>
+      <li><a href="#section3">Services</a></li>
+      <li><a href="#section4">Contact</a></li>
+      <li><a href="#box-demo">Box Model Demo</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="section1" class="card">
+      <h2>Box Model Basics</h2>
+      <p>
+        The CSS Box Model is the foundation of web layout. Each element is a rectangular box, consisting of:
+      </p>
+      <ul>
+        <li><strong>Content</strong> – the text or images inside the element</li>
+        <li><strong>Padding</strong> – the space between content and border</li>
+        <li><strong>Border</strong> – wraps around the padding</li>
+        <li><strong>Margin</strong> – the outermost layer, spacing between elements</li>
+      </ul>
+    </section>
+
+    <section id="section2" class="card">
+      <h2>About This Page</h2>
+      <p>
+        This page demonstrates how headings, paragraphs, and container sections can be styled using external CSS.
+        Experiment with margins, padding, and borders to understand spacing and alignment.
+      </p>
+    </section>
+
+    <section id="section3" class="card">
+      <h2>Our Services</h2>
+      <p>
+        We provide learning resources for:
+      </p>
+      <ol>
+        <li>HTML5 and CSS fundamentals</li>
+        <li>Responsive layouts</li>
+        <li>Accessibility best practices</li>
+      </ol>
+      <button class="btn">Learn More</button>
+    </section>
+
+    <section id="section4" class="card">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>Phone: +254 700 123 456</p>
+    </section>
+
+    <!-- NEW: Box Model Demo -->
+    <section id="box-demo" class="card">
+      <h2>Visual Box Model Demo</h2>
+      <p>Below are three boxes styled differently to demonstrate <em>margin</em>, <em>padding</em>, and <em>border</em>.</p>
+      
+      <div class="box demo1">Box 1: No padding, thin border, small margin</div>
+      <div class="box demo2">Box 2: Extra padding, medium border, larger margin</div>
+      <div class="box demo3">Box 3: Thick padding, thick border, extra large margin</div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 My Styled Page. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

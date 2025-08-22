@@ -1,0 +1,123 @@
+/* ========== General Reset ========== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* ========== Header ========== */
+.site-header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #023e8a;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.site-header p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* ========== Navigation ========== */
+.main-nav {
+  background-color: #90e0ef;
+  padding: 10px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0 15px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #03045e;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: #0077b6;
+}
+
+/* ========== Sections (Cards) ========== */
+.card {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  padding: 20px;         /* Padding: space inside the box */
+  margin: 20px auto;     /* Margin: space outside the box */
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+/* ========== Button ========== */
+.btn {
+  display: inline-block;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;    /* Padding inside the button */
+  margin-top: 10px;      /* Margin pushes button away from other elements */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #023e8a;
+}
+
+/* ========== Footer ========== */
+.site-footer {
+  background-color: #03045e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-top: 5px solid #0077b6;
+}
+
+/* ========== Box Model Demo Boxes ========== */
+.box {
+  background-color: #caf0f8;
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.demo1 {
+  padding: 5px;
+  border: 2px solid #03045e;
+  margin: 10px auto;
+}
+
+.demo2 {
+  padding: 20px;
+  border: 4px dashed #0077b6;
+  margin: 20px auto;
+}
+
+.demo3 {
+  padding: 40px;
+  border: 6px solid #00b4d8;
+  margin: 40px auto;
+}
